@@ -1,0 +1,4 @@
+ssdpAWS	KEYWORD1
+begin   KEYWORD2
+getSSDPSchema	KEYWORD2
+setHTTPAnswer KEYWORD2

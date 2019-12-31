@@ -1,0 +1,14 @@
+{
+    "name": "ssdpAWS",
+    "keywords": "wifi, wi-fi, SSDP",
+    "description": "ESP8266 and ESP32 Simple Service Discovery for Async HTTP and WebSocket Server",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Lightwell-bg/ssdpAWS.git"
+    },
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"],
+    "version": "1.0"
+  }
