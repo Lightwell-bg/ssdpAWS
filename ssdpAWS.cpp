@@ -22,7 +22,7 @@ void ssdpAWS::begin(const char *nameSSDP, const char *sernum, const char *nameMo
             SSDP.setURL("/");
             SSDP.setModelName(_nameModel);
             SSDP.setModelNumber(_versionModel);
-            SSDP.setModelURL("http://"+(WiFi.status() != WL_CONNECTED ? WiFi.softAPIP() : WiFi.localIP()));
+            SSDP.setModelURL("http://" + String(WiFi.status() != WL_CONNECTED ? WiFi.softAPIP() : WiFi.localIP()));
             SSDP.setManufacturer(_nameManuf);
             SSDP.setManufacturerURL(_urlManuf);
             SSDP.begin();
